@@ -1,0 +1,12 @@
+<nav>
+
+
+  <ul>
+    <li *ngFor="let menu of menus">
+      <a routerLink="{{menu.url}}"> {{menu.nome}}</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{menu.separador}}
+    </li>
+  </ul>
+
+
+</nav>
+

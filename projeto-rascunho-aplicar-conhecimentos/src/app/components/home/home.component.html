@@ -1,0 +1,54 @@
+<main>
+  <h3>Exercícios na Home</h3>
+  <div ngClass="{{ classesHome.containerHome }}">
+    <!-- ----------------------------------------------------------------------BLOCO INÍCIO -->
+
+    <div ngClass="{{ classesHome.containerBlockEx }}">
+      <p>
+        <span ngClass="{{ classesHome.titles }}"
+          >Qual é a Página do Bloco?:</span
+        >
+        Páginas Home e Página ex-um
+      </p>
+      <br />
+      <p>
+        <span ngClass="{{ classesHome.titles }}">Mencione a atividade?:</span>
+        Neste Exercício tenho o desafio de trazer uma mensagem do Componente Pai
+        para o componente filho.
+      </p>
+      <br />
+      <p>
+        <span ngClass="{{ classesHome.titles }}">Resultado:<button (click)="filho.rec()">Estudar</button></span>
+        <app-filho #filho></app-filho>
+      </p>
+    </div>
+
+    <!-- ----------------------------------------------------------------------BLOCO FIM -->
+
+    <!-- XXXX ---- XXXX ---- XXXX ---- XXXX ---- XXXX ---- XXXX ---- XXXX ----  DIVISÃO BLOCO -->
+
+    <!-- ----------------------------------------------------------------------BLOCO INÍCIO -->
+
+<!--
+    <div ngClass="{{classesHome.containerBlockEx}}">
+
+      <p>
+        <span ngClass="{{classesHome.titles}}">Qual é a Página do Bloco?:</span>
+        Bla...Bla...Bla...
+      </p>
+      <br>
+      <p>
+        <span ngClass="{{classesHome.titles}}">Mencione a atividade?:</span>
+        Bla...Bla...Bla...
+      </p>
+      <br>
+      <p>
+        <span ngClass="{{classesHome.titles}}">Resultado:</span>
+        Bla...Bla...Bla...
+      </p>
+
+    </div> -->
+
+    <!-- ----------------------------------------------------------------------BLOCO FIM -->
+  </div>
+</main>
